@@ -5,9 +5,7 @@
 <head>
 
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Neon Led Store</title>
@@ -24,15 +22,22 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
-    
+     <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 
     <!-- FontAwesome -->
 
-    <!--<link rel="stylesheet" href="build/css/fontawesome/css/all.min.css">-->
-    <script src="https://kit.fontawesome.com/f788fcfb82.js" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="build/css/fontawesome/css/all.min.css"> -->
+    <script src="https://kit.fontawesome.com/f788fcfb82.js" crossorigin="anonymous"></script> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Bootstrap 5 CSS -->
 
@@ -69,6 +74,8 @@
     <link rel="stylesheet" href="build/css/arreglo.css">
     
     <link rel="stylesheet" href="build/css/estilos.css">
+
+    <link rel="stylesheet" href="build/css/footer.css">
 
     <!-- Modal Consulta Enviada(Correo) -->
     
@@ -291,8 +298,8 @@
     </header>
 
     <?php echo $contenido ?>
-
-    <footer class="border-top bg-black border-light border-2 ">
+     <!--
+        <footer class="border-top bg-black border-light border-2 ">
 
         <div class="contenido container text-white px-3 px-sm-5 py-3 py-sm-4">
 
@@ -372,6 +379,52 @@
 
             </div>
 
+    </footer>
+     -->                           
+    <footer class="footer">
+        <div class="contenedor-footer-all">   
+
+            <div class="contenido-body">   
+                <h1 class="contacto__titulo">Información Contactos</h1>
+                <div class="contacto">
+                    <div class="contacto__direccion">
+                        <img src="">
+                        <label>Jr. Paruro 1401 tda. 130 sótano, CC Shopping Center, Cercado de Lima</label>
+                    </div>
+
+                    <div class="contacto__celular">
+                        <img src="">
+                        <label>936910425 - 994078320</label>
+                    </div>
+                    
+                    <div class="contacto__correo">
+                        <img src="">
+                        <label>ventasneonhouse@gmail.com</label>
+                    </div>
+                </div>
+
+                <div class="redes">
+                        <a href="https://www.instagram.com/nhldecoracioncomercial/" class="link" target="_blank">
+                            <i class="fab fa-instagram instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/nhldecoracioncomercial" class="link" target="_blank">
+                            <i class="fab fa-facebook facebook"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=51936910425&text=%C2%A1Bienvenidos!%20Cu%C3%A9ntanos%20sobre%20tus%20proyectos%20para%20poder%20ayudarte" class="link" target="_blank">
+                            <i class="fab fa-whatsapp whatsapp"></i>
+                        </a>
+                        <a href="https://twitter.com/NEONHOUSELEDS" class="link" target="_blank">
+                            <i class="fab fa-twitter twitter"></i>
+                        </a>
+                </div>
+            </div>  
+
+            <div class="contenido-footer">
+                <div class="">
+                    <label> © 2022 Todos los Derechos Reservados </label>
+                </div>
+            </div>
+        </div> 
     </footer>
 
     <script src="https://kit.fontawesome.com/54e80e802d.js" crossorigin="anonymous"></script>
