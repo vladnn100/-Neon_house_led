@@ -10,7 +10,8 @@
     ],
     "require": {
         "intervention/image": "^2.7",
-        "phpmailer/phpmailer": "^6.5"
+        "phpmailer/phpmailer": "^6.5",
+        "symfony/routing": "^5.4"
     },
     "autoload": {
         "psr-4": {

@@ -157,20 +157,18 @@
 
 
 <!-- HACIENDO PRUEBAS DE SOCIAL BAR -->
+
+
+
 <div class="social">
         <ul>
-            <li><a href="https://www.facebook.com/Neon-Led-store-100244098454782" target="_blank" class="fab fa-facebook neontablafacebook rounded-0"></a></li>
-            
-            <li><a href="https://www.instagram.com/accounts/login/?next=/nhldecoracioncomercial/" target="_blank" class="fab fa-instagram neontablainst rounded-0"></a></li>
-            
-            <li><a href="https://www.tiktok.com/@neonhouseled2021?_d=secCgYIASAHKAESPgo8sIPMAxk9q0UdVPEdEKWLyt0NN8Z0Z1Hh9XqLARKK21MPVYrG0u8TUu5%2B88X7407MZJC2Wkin4WS3pz8zGgA%3D&_r=1&language=es&sec_uid=MS4wLjABAAAAHJQMW4_09j5iyS99a_W192R-KbfRVOVx7ZkkLm7rluqMM7NojWd1s1_OSlbh4ryE&sec_user_id=MS4wLjABAAAA_m1SQHyjEzm78KOhiFb5NL4jvK58q9t4h_8UpewaFD95SQXygVq5ACtDv1Gc2w-B&share_app_id=1233&share_author_id=6935916902436193285&share_link_id=8416e899-a3ce-49ba-baac-62e12c1d16b8&social_sharing=v4&source=h5_m&timestamp=1647277909&u_code=de1adc3h11869a&ugbiz_name=Account&user_id=6860668889546736646&utm_campaign=client_share&utm_medium=android&utm_source=whatsapp" target="_blank" class="fab fa-tiktok neontapur rounded-0"></a></li>
-            
-            <li><a href="https://www.pinterest.com/infoneonledstore/" target="_blank" class="fab fa-pinterest-square neontared rounded-0"></a></li>
-            
-            <li><a href="https://api.whatsapp.com/send?phone=51994078320" target="_blank" class="fab fa-whatsapp neontawhatsapp rounded-0"></a></li>
+            <li><a href="https://www.facebook.com/Neon-Led-store-100244098454782" target="_blank" class="fab fa-facebook rounded-0"></a></li>
+            <li><a href="https://www.instagram.com/accounts/login/?next=/nhldecoracioncomercial/" target="_blank" class="fab fa-instagram rounded-0"></a></li>
+            <li><a href="https://www.tiktok.com/@neonhouseled2021?_d=secCgYIASAHKAESPgo8sIPMAxk9q0UdVPEdEKWLyt0NN8Z0Z1Hh9XqLARKK21MPVYrG0u8TUu5%2B88X7407MZJC2Wkin4WS3pz8zGgA%3D&_r=1&language=es&sec_uid=MS4wLjABAAAAHJQMW4_09j5iyS99a_W192R-KbfRVOVx7ZkkLm7rluqMM7NojWd1s1_OSlbh4ryE&sec_user_id=MS4wLjABAAAA_m1SQHyjEzm78KOhiFb5NL4jvK58q9t4h_8UpewaFD95SQXygVq5ACtDv1Gc2w-B&share_app_id=1233&share_author_id=6935916902436193285&share_link_id=8416e899-a3ce-49ba-baac-62e12c1d16b8&social_sharing=v4&source=h5_m&timestamp=1647277909&u_code=de1adc3h11869a&ugbiz_name=Account&user_id=6860668889546736646&utm_campaign=client_share&utm_medium=android&utm_source=whatsapp" target="_blank" class="fab fa-tiktok rounded-0"></a></li>
+            <li><a href="https://www.pinterest.com/infoneonledstore/" target="_blank" class="fab fa-pinterest-square rounded-0"></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=51994078320" class="fab fa-whatsapp rounded-0"></a></li>
         </ul>
     </div>
-<!-- FIN DE SOCIAL VAR -->
 
 
 
@@ -179,7 +177,33 @@
 
 
 
-<!-- REORDENANDO DISEÑO DE TABLAS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 
@@ -221,8 +245,8 @@
                                                 <select id="consulta" name="consulta" class="p-2 neontextlanding  border-0 border bg-transparent rounded w-100 me-1 me-sm-4 my-3 d-block text-black"><br>             
                                                     
                                                     <option id="formHogar" value="formHogar">Hogar</option>
-                                                    <option id="formEvento" value="formEvento">Evento</option>
-                                                    <option id="formNegocio" value="formNegocio">Negocio</option>
+	                                                <option id="formEvento" value="formEvento">Evento</option>
+	                                                <option id="formNegocio" value="formNegocio">Negocio</option>
                                                 </select>
                                   
                                     <button class="button-contact col-5 btn m-2 mx-auto d-block neonbotton neontabla" type="submit" name="enviar" id="enviar">Enviar</button>
@@ -276,5 +300,7 @@
            
         </section>
     </div>
+
+</div>
 
 <script src="build/js/ajax/ajax.contacto.js"></script>
