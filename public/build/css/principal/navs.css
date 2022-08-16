@@ -128,7 +128,7 @@ a {
   }
 }
 
-/** Footer */
+/** Footer 
 .border-top-white {
   border-top: 5px solid #fff;
 }
@@ -232,4 +232,5 @@ a {
     justify-content: center;
     align-items: center;
   }
-}
+} 
+**/
